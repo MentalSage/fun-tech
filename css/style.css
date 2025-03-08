@@ -7585,7 +7585,10 @@ button.bg-dark:focus {
 .p-5 {
   padding: 3rem !important;
 }
-
+.yppy{
+  background-image: url("images/bg.jpg");
+  /* background-color: #cccccc; */
+}
 .pt-5,
 .py-5 {
   padding-top: 3rem !important;
@@ -9570,7 +9573,32 @@ h4, h5, h6 {
   left: calc(50% - 60px);
   background: #009CFF;
 }
-
+.product-img{
+  border:2px solid transparent;
+  height:300px;
+}
+@media screen and (max-width: 600px) {
+  .product-img{
+    max-height: 300px;
+    height:auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  .product-img .img-fluid{
+    min-height: 300px;
+    height:auto;
+    
+  }
+  .product-img{
+    border:2px solid transparent;
+  }
+}
+.sl1100{
+  height:200px;
+  border: 2px solid transparent;
+  margin:10%;
+  border-radius: 50%;
+}
 .product-img,
 .gallery-item {
   position: relative;
